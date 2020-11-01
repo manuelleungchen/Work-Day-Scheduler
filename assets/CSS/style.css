@@ -1,9 +1,12 @@
+
+/* Set font, color and size on body */
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
 }
   
+/* Style for the textarea */
 textarea{
     background: transparent;
     border: none;
@@ -11,8 +14,9 @@ textarea{
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
-  }
+}
   
+/* Style the Header */
 .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -21,52 +25,61 @@ textarea{
     border-bottom: 10px solid black;
 }
   
+/* Pre-wrap white spaces on textarea */
 .description{
     white-space: pre-wrap;
-  }
+}
   
-  .time-block{
+/* Center text and make the rounded corners */
+.time-block{
     text-align: center;
     border-radius: 15px;
-  }
+}
   
-  .row {
+/* Style each time-block row */
+.row {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;;
-  }
-  
-  .hour {
+}
+
+/* Style the hour span */
+.hour {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
-  }
+}
   
-  .past {
+/* Set gray background for hours passed */
+.past {
     background-color: #d3d3d3;
     color: white;
-  }
+}
   
-  .present {
+/* Set red background for current hour */
+.present {
     background-color: #ff6961;
     color: white;
-  }
-  
-  .future {
+}
+
+/* Set green background for future hours */
+.future {
     background-color: #77dd77;
     color: white;
-  }
+}
   
-  .saveBtn {
+/* Style the Save Buttons */
+.saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
-  }
+}
   
-  .saveBtn i:hover {
+/* Style when Button Icon is hover   */
+.saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
-  }
+}
   
